@@ -1,0 +1,1 @@
+const resultado = 7*3;
