@@ -7,4 +7,6 @@ function calculatePythagoras(side1 , side2) {
     return calculateSquareRoot(sum);
 }
 
+console.log(process.argv);
+
 console.log(`O tamnaho da hipotenusa de um triangulo retângulo de lados 3 e 4 é ${calculatePythagoras(3 ,4)}`);
