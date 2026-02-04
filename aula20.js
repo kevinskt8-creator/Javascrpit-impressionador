@@ -18,6 +18,4 @@ function calculateFibonacciTerm(termNumber) {
 }
 
 console.log(`O valor do termo número 6 da sequencia de fibonacci é ${calculateFibonacciTerm(6)}`);
-for (let volta = 1; volta <= 10; volta++) {
-  console.log("Flexão número " + volta);
-}
+
