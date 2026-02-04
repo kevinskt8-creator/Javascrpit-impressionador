@@ -8,8 +8,7 @@ function calculateFibonacciTerm(termNumber) {
     if (termNumber === 1) {
         return 1;
     }
-    let currentIteration = 2;
-    while (currentIteration <= termNumber) {
+    for ( let currentIteration = 1; currentIteration < termNumber;) {
         let auxvar = lastTerm + secondToLast;
         secondToLast = lastTerm;
         lastTerm = auxvar;
@@ -19,3 +18,6 @@ function calculateFibonacciTerm(termNumber) {
 }
 
 console.log(`O valor do termo número 6 da sequencia de fibonacci é ${calculateFibonacciTerm(6)}`);
+for (let volta = 1; volta <= 10; volta++) {
+  console.log("Flexão número " + volta);
+}
